@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Shade&family=Kanit:wght@600&family=Sedgwick+Ave+Display&display=swap');
+
+:root {
+    --font-h: 'Bungee Shade', cursive;
+    --font-family: 'Kanit', sans-serif;
+    --font-p: 'Sedgwick Ave Display', cursive;
+    --font-f: 'Bangers', cursive;
+
+    --background-body: #cdffff;
+    --margin-color: #00e5ff;
+    --background-main: #75ffff;
+}
