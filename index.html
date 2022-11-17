@@ -11,27 +11,38 @@
 </head>
 
 <body>
-    <main>
+    <header class="header__container">
+        <div class="container__logo">
+            <img class="img-logo" src="./assets/images/logo-removebg-preview (2).png" alt="">
+        </div>
+        <div class="container__title">
+            <h1 class="title-page">RapAsks</h1>
+        </div>
+    </header>
+    <main class="container__main">
 
-        <div class="container__main container flexbox">
-            
-            
-            <div class="container__home container flexbox">
-                <div class="container__video home">
-                <video width="320" height="240" controls>
-                    <source src="./assets/video/Nelly - Air Forces One.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="container__text home">
-                <h3 class="home__title">Bienvenido mi bro a RapAsks</h3>
-                <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
-                    inventore doloribus veniam qui ut deserunt, delectus voluptatem cum eveniet dignissimos a nesciunt
-                    ipsam rem! Reiciendis libero perspiciatis architecto cum tempora.</p>
+        <div class="container__home">
+            <div class="container__video-home">
+                <div class="container__video">
+                    <video class="home__video" width="320" height="240" autoplay replay controls>
+                        <source src="./assets/video/Nelly - Air Forces One.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
 
-            <button onclick="location.href='./pages/askfor1.html'">Vamos!</button>
-        
+            <div class="container__info-home">
+                <div class="container__text">
+                    <div class="container__description">
+                        <h3 class="home__title">Bienvenido mi bro a RapAsks</h3>
+                        <p class="home__description">Este juego esta hecho con el fin de conocer un poco sobre la historia de la cultura del <strong>Hip Hop - Rap</strong> desde sus principales expositores y hechos importantes en este lapso de tiempo que determino su posicionamiento a nivel global. <br> Para empezar solo dale click al boton! </p>
+                    </div>
+                </div>
+
+                <div class="container__button-nav">
+                    <button class="button__nav" onclick="location.href='./assets/pages/asks.html'">Vamos!</button>
+                </div>
+            </div>
+
         </div>
     </main>
 

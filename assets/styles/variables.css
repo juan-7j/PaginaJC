@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Shade&family=Kanit:wght@600&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Sancreek&family=Sedgwick+Ave+Display&family=Teko:wght@300&family=UnifrakturCook&display=swap');
 
 :root {
-    --font-h: 'Bungee Shade', cursive;
-    --font-family: 'Kanit', sans-serif;
-    --font-p: 'Sedgwick Ave Display', cursive;
-    --font-f: 'Bangers', cursive;
+    --font-1: 'Pirata One', cursive;
+    --font-2: 'Sedgwick Ave Display', cursive;
+    --font-3: 'UnifrakturCook', cursive;
+    --font-4: 'Sancreek', cursive;
+    --font-5: 'Teko', sans-serif;
 
-    --background-body: #cdffff;
-    --margin-color: #00e5ff;
-    --background-main: #75ffff;
+    --background-containers: #cdffff;
+    --margin-color: #D6EAF8;
+    --background-body: #EBF5FB;
 }
