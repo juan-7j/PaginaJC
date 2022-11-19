@@ -38,13 +38,14 @@
 }
 
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:768px) {
 
     .title-page {
-        font-weight: 200;
+        font-weight: 190;
+        text-shadow: 3px 3px 5px #222;
     }
 
-    .logo-container {
-        margin-left: 5px;
+    .header__container {
+        box-shadow: 7px 7px 7px 7px #222;
     }
 }

@@ -1,49 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/index.css">
-    <link rel="shortcut icon" href="../assets/images/faviicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="shortcut icon" href="../images/faviicon.ico" type="image/x-icon">
     <title>RapAsks</title>
 </head>
+
 <body>
-    <main>
-        <section>
-            <div class="container__section1-ask">
 
-                <div class="container__section1-ask">
-                    <div class="container__img--ask">
-                        <img src="../assets/images/nelly-image.jpg" alt="" width="300" height="auto">
-                    </div>
+    <main class="container__main">
 
-                    <div class="container__ask">
-                        <div class="container__ask--ask">
-                            <h2>Carganzas</h2>
-                        </div>
-                    </div>
+        <div class="container-general">
+
+            <div class="container-number" id="index_pregunta">1.</div>
+            <div class="container-questions">
+
+                <div class="question" id="question" > Carganzas</div>
+                <div class="cont-answer" id="cont1">
+                    <div class="answer-index">A.</div>
+                    <p id="answer1" class="answer-content">Carganzas</p>
+                </div>
+
+                <div class="cont-answer" id="cont2">
+                    <div class="answer-index">B.</div>
+                    <p id="answer2" class="answer-content">Carganzas
+                </div>
+                
+                <div class="buttons">
+                    <a href="" type="button" id="boton_submit">Siguiente</a>
                 </div>
 
             </div>
-        </section>
-        
-        <section>
-            <div class="container__section2--answer">
 
-                <div class="container__answer ii">
-                    <p>Carganzas</p>
-                </div>
-
-                <div class="container__answer cc">Carganzas</div>
-            </div>
-        </section>
-        
-        <section>
-            <div class="container__button">
-                <button>Siguiente</button>
-            </div>
-        </section>
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/asks.js" type="text/javaScript"></script>
 </body>
+
 </html>

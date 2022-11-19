@@ -1,9 +1,9 @@
 body {
-    background-image: url('../images/nelly-responsive.jpg');
+    background-image: url('../images/wtc.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 
@@ -34,20 +34,21 @@ body {
     margin: 10px 0px;
 }
 
-.home__description{
-    font-size: 1.2rem ;
+.home__description {
+    font-size: 1.2rem;
     text-align: justify;
     line-height: 1.5;
     font-family: var(--font-5);
-    /* color: #302e2e; */
     font-weight: lighter;
 }
 
-.container__info-home, .container__text {
+.container__info-home,
+.container__text {
     padding: 5px 0px;
 }
 
-.container__info-home, .container__video-home {
+.container__info-home,
+.container__video-home {
     flex: 2 2;
 }
 
@@ -56,6 +57,11 @@ body {
     width: 100%;
     height: 45px;
     outline: none;
+    border: 4px solid var(--margin-color);
+    border-radius: 12px;
+    background-color: var(--background-body);
+    font-family: var(--font-1);
+    font-size: 20px;
 }
 
 .button__nav:hover {
@@ -77,5 +83,36 @@ body {
 }
 
 
+@media screen and (max-width:768px) {
+
+    html {
+        font-size: 15px;
+    }
 
 
+    .container__home {
+        margin: 40px;
+        box-shadow: 7px 7px 7px 7px #222;
+    }
+
+    .container__video-home {
+        order: 1;
+    }
+
+    .container__info-home {
+        font-size: 1.05rem;
+        order: 2;
+    }
+
+    .button__nav {
+        box-shadow: 10px 10px 10px 10px lightblue;
+    }
+
+    body {
+        background-image: url('../images/nwa.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+}

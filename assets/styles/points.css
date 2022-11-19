@@ -1,0 +1,102 @@
+.container-principal-puntaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    cursor: pointer;
+}
+
+.container-general-puntaje {
+    border: 12px solid var(--margin-color);
+    background-color: #1119;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 6px 6px #222;
+}
+
+.title-text {
+    font-size:2rem;
+    line-height: 1.4;
+    text-align: center;
+    background: var(--background-containers);
+    border-bottom: 2px solid var(--margin-color);
+}
+
+.title-text:hover{
+    color: #222;
+    transition: 6s;
+}
+
+.title-puntaje {
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-shadow: 5px 4px 11px #222;
+    font-family: var(--font-1);
+}
+
+.contain-puntaje {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.resultado-preguntas {
+    font-size: 2.3rem;
+    margin: 6px 0 0 0;
+    font-weight: bold;
+    font-family: var(--font-5);
+}
+
+.resultado-puntaje {
+    font-size: 2.3rem;
+    margin: 12px 0px;
+    font-weight: bold;
+    font-family: var(--font-5);
+}
+
+.contain-complemento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-containers);
+    border-top: 2px solid var(--margin-color);
+    height: 50px;
+    font-family: var(--font-1);
+}
+
+.complemento {
+    font-size: 1.8rem;
+}
+
+.complemento:hover {
+    font-size: 1.8rem;
+    color: rgb(0, 153, 255);
+    transition: all 1s;
+}
+
+.resultado-puntaje, .resultado-preguntas {
+    color: #fffc;
+}
+
+.ptj, .puntos {
+    font-size: 1.2em;
+    transition: color .4s;
+
+}
+
+
+
+
+@media screen and (max-width:418px) {
+
+    .container-principal-puntaje {
+        padding: 10px;
+    }
+
+    .container-general-puntaje {
+        min-width: 200px;
+    }
+}
